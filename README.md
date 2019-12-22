@@ -64,5 +64,5 @@ This library provides functionality to overcome this by explicitly formatting yo
 
 For example a user may enter "Hello" which actually should be stored as "Hello" but using JSON.parse on the string like: `'{"data": ""Hello""}'` will yield an error.
 
-To properly escape the characters use the n`oescape.escapeForJSONStrings` function and let it do all the formatting.
+To properly escape the characters use the `noescape.escapeForJSONStrings` function and let it do all the formatting.
 Also it will work for all other escape characters.
